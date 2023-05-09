@@ -1,0 +1,38 @@
+
+.about-wrapper { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-bottom: 50px;
+}
+
+#skills {
+    display: flex;
+    margin-top:-30px;
+    justify-content: space-evenly;
+    background-color: var(--introShadow);
+    border-radius: 35px;
+}
+
+.education {
+   padding-left: 50px;
+   
+}
+
+.edu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1px;
+}
+
+.edu h5 {
+    margin-top: -12px;
+}
+
+
+@media screen and (max-width: 689px) {
+    .education {
+        padding-left: 0px;
+        
+     }
+}
+

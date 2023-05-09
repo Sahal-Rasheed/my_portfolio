@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root{
+    --primaryColor:#eaeaea;
+    --secondaryColor:#fff;
+
+    --borderColor:#c1c1c1;
+
+    --primaryText:black;
+    --secondaryText:#4b5156;
+
+    --themeBorder:#24292e;
+    --previewBg:rgb(251, 249, 243, 0.8);
+    --introShadow:#f0ead6;
+
+    --submitColor:black;
+    --cvBtn:#2596be;
+    --cvBtnHover:#2da7d3;
+    --aTag:#17a2b8;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body *{
+    transition: 0.3s;
+}
+
+h1, h2, h3, h4, h5, h6, strong{
+    color: var(--primaryText);
+    font-family: 'Russo One', sans-serif;
+    font-weight: 500;
+}
+
+p, li, span, label, input, textarea{
+    color: var(--secondaryText);
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {font-size: 56px;}
+h2 {font-size: 36px;}
+h3 {font-size: 28px;}
+h4 {font-size: 24px;}
+h5 {font-size: 20px;}
+h6 {font-size: 16px;}
+
+.sec1 {
+    background-color: var(--primaryColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: auto;
+}    
+
+.sec2 {
+    background-color: var(--secondaryColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: auto;
+}    
+
+a {
+    text-decoration: none;
+    color: var(--aTag);
+}
+
+ul {
+    list-style: none;
+}
+
+.main-container{
+    width: 1200px;
+    margin: 0 auto; 
+}
+
+@media screen and (max-width: 1200px) {
+    .main-container{
+        width: 95%;
+    }
+}
+

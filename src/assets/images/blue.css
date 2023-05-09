@@ -1,0 +1,23 @@
+
+:root{
+	--primaryColor:#15202B;
+	--secondaryColor:#192734;
+
+	--borderColor:#164D56;
+
+	--primaryText:#fff;
+	--secondaryText:#eeeeee;
+
+	--themeBorder:#FFF;
+
+	--previewBg:rgb(25, 39, 52, 0.8);
+	--introShadow:#111921;
+
+
+	--submitColor:#17a2b8;
+    --socialColor:#fff;
+
+    --cvBtn:#2596be;
+    --cvBtnHover:#2da7d3;
+
+}
